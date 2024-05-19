@@ -27,7 +27,7 @@ public class CalculatorTests {
               int a = 30;
               int b = 20;
               int result = calculator.add(a, b);
-              int expectedResult = 60;
+              int expectedResult = 50;
 
               Assertions.assertEquals(expectedResult, result);
        }
